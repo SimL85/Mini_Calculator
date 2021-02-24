@@ -6,19 +6,18 @@ public class Main {
 
 	public static void main(String[] args) {
 		@SuppressWarnings("resource")
+		
 		Scanner input = new Scanner(System.in);
+		System.out.println("****************");
+		System.out.println("Calculator Ready");
+		System.out.println("****************");
 		System.out.println("Please choose your operation \n[ + ],\n[ - ],"
 		+ "\nfor double[ +D ],\nfor Float[ +F ]"
 		+"\nfor double[ -D ],\nfor Float[ -F ]");
 		String op = input.next();
 		int a, b;
 		double c, d, i, l;
-<<<<<<< HEAD
-					
-=======
-			
-			
->>>>>>> b971548ed0cf8143e83100933505d5f90bd8668f
+
 		switch(op) {
 			 case "+":
 				System.out.println("Please insert the first number");
