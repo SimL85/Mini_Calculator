@@ -13,9 +13,7 @@ public class Main {
 		String op = input.next();
 		int a, b;
 		double c, d, i, l;
-			//
-			//OverloadSub n2 = new OverloadSub();
-			
+					
 		switch(op) {
 			 case "+":
 				System.out.println("Please insert the first number");
@@ -59,7 +57,7 @@ public class Main {
 				System.out.println("Please insert the second number");
 				l = input.nextDouble();
 				OverloadSub n6 = new OverloadSub(); 
-				System.out.println(n6.sub(i,l));
+				System.out.println(n6.sub(i,l ));
 			 break;
 			 
 			 case "-F":System.out.println("Please insert the first number");
