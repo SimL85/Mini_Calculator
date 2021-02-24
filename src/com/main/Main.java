@@ -13,7 +13,12 @@ public class Main {
 		String op = input.next();
 		int a, b;
 		double c, d, i, l;
+<<<<<<< HEAD
 					
+=======
+			
+			
+>>>>>>> b971548ed0cf8143e83100933505d5f90bd8668f
 		switch(op) {
 			 case "+":
 				System.out.println("Please insert the first number");
