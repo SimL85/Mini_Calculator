@@ -7,4 +7,7 @@ public class OverloadAdd {
 	public double add(double value1, double value2) {
 		return value1 + value2;
 	}
+	public float add(float value1, float value2) {
+		return value1 + value2;
+	}
 }
