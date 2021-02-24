@@ -13,8 +13,7 @@ public class Main {
 		String op = input.next();
 		int a, b;
 		double c, d, i, l;
-			//
-			//OverloadSub n2 = new OverloadSub();
+			
 			
 		switch(op) {
 			 case "+":
