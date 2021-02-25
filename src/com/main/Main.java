@@ -5,8 +5,23 @@ import com.classes.*;
 public class Main {
 
 	public static void main(String[] args) {
-		@SuppressWarnings("resource")
+	
+		Calculator calc= new Calculator();
+		System.out.println(calc.sub(10.5,5.2));
 		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		//	@SuppressWarnings("resource")
+	/*	
 		Scanner input = new Scanner(System.in);
 		System.out.println("****************");
 		System.out.println("Calculator Ready");
@@ -17,6 +32,7 @@ public class Main {
 		String op = input.next();
 		int a, b;
 		double c, d, i, l;
+		float e, f, g, h;
 
 		switch(op) {
 			 case "+":
@@ -49,9 +65,9 @@ public class Main {
 			 
 			 case "+F":
 				System.out.println("Please insert the first number");
-				float e = input.nextFloat();
+				e = input.nextFloat();
 				System.out.println("Please insert the second number");
-				float f = input.nextFloat();
+				f = input.nextFloat();
 				OverloadAdd n2 = new OverloadAdd(); 
 				System.out.println(n2.add(e,f));
 			 break;
@@ -65,9 +81,9 @@ public class Main {
 			 break;
 			 
 			 case "-F":System.out.println("Please insert the first number");
-				float g = input.nextFloat();
+				g = input.nextFloat();
 				System.out.println("Please insert the second number");
-				float h = input.nextFloat();
+				h = input.nextFloat();
 				OverloadSub n5 = new OverloadSub(); 
 				System.out.println(n5.sub(g,h));
 			 break;
@@ -75,7 +91,7 @@ public class Main {
 			 default: System.out.println("Invalid comand!!");
 			 break;
 			}
-			
+			*/
 		
 
 	}
