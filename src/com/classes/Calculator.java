@@ -1,7 +1,7 @@
 package com.classes;
 
 public class Calculator {
-/*	public int firstNumber = 0;
+	public int firstNumber = 0;
 	public int secondNumber = 0;
 
 	public Calculator(int firstNumber, int secondNumber){
@@ -9,12 +9,12 @@ public class Calculator {
 		this.secondNumber =secondNumber;
 	}
 
-	/*public int Add() { 
+	public int Add() { 
 		return  firstNumber + secondNumber;
 	}
 	public int Sub() {
 		return  firstNumber - secondNumber;
-	}*/
+	}
 	public int sub(int value1, int value2) {
 		return value1 - value2;
 	}

@@ -6,22 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 	
-		Calculator calc= new Calculator();
-		System.out.println(calc.sub(10.5,5.2));
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		//	@SuppressWarnings("resource")
-	/*	
+		@SuppressWarnings("resource")
+
 		Scanner input = new Scanner(System.in);
 		System.out.println("****************");
 		System.out.println("Calculator Ready");
@@ -91,8 +77,7 @@ public class Main {
 			 default: System.out.println("Invalid comand!!");
 			 break;
 			}
-			*/
-		
+			
 
 	}
 
